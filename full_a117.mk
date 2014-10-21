@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/micromax/a116/device_a116.mk)
+$(call inherit-product, device/micromax/a117/device_a117.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Configure as xhdpi device to prevent breaking without mdpi drawables
@@ -21,7 +21,7 @@ PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_a116
-PRODUCT_DEVICE := a116
+PRODUCT_NAME := full_a117
+PRODUCT_DEVICE := a117
 PRODUCT_BRAND := micromax
-PRODUCT_MODEL := a116
+PRODUCT_MODEL := a117

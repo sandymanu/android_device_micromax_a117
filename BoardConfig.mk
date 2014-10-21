@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/micromax/a116
+DEVICE_FOLDER := device/micromax/a117
 
--include vendor/micromax/a116/BoardConfigVendor.mk
+-include vendor/micromax/a117/BoardConfigVendor.mk
 
 # board
 TARGET_BOARD_PLATFORM := mt6589
@@ -40,7 +40,7 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_G_MT6589
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
 BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/a116/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/micromax/a117/bluetooth
 
 # power
 TARGET_POWERHAL_VARIANT := cm
@@ -50,7 +50,7 @@ TARGET_NO_BOOTLOADER := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
 
 # EGL settings
-BOARD_EGL_CFG := device/micromax/a116/egl.cfg
+BOARD_EGL_CFG := device/micromax/a117/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
@@ -84,10 +84,10 @@ WIFI_DRIVER_FW_PATH_STA := "STA"
 WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/micromax/a116/ril/
+BOARD_RIL_CLASS := ../../../device/micromax/a117/ril/
 
 #nvram permission fix
-TARGET_SPECIFIC_HEADER_PATH := device/micromax/a116/include
+TARGET_SPECIFIC_HEADER_PATH := device/micromax/a117/include
 
 # allow more than one lun file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
