@@ -172,7 +172,11 @@ etc/firmware/S_ANDRO_SFL.ini
 etc/firmware/WIFI_RAM_CODE_MT6628
 etc/firmware/catcher_filter.bin
 etc/firmware/WMT.cfg
-etc/firmware/ft5206/tinno-fts-update-jiemian.bin
+etc/firmware/ft5206/tinno-synaptics-update-biel.img
+etc/firmware/ft5206/tinno-synaptics-update-bm.img
+etc/firmware/ft5206/tinno-synaptics-update-byd.img
+etc/firmware/ft5206/tinno-synaptics-update-jtouch.img
+etc/firmware/ft5206/tinno-synaptics-update-yj.img
 
 etc/audio_policy.conf
 etc/audio_effects.conf
