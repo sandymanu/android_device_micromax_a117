@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/micromax/a116/full_a116.mk)
+$(call inherit-product, device/micromax/a117/full_a117.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
